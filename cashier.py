@@ -198,7 +198,7 @@ class Transaction:
             quantity = self.items[item][0]
             price = self.items[item][1]
             total_price = quantity * price
-            table.append([i, item, quantity, price, quantity * total_price])
+            table.append([i, item, quantity, price, total_price])
 
         print(tabulate(table, headers, tablefmt="github"))
 
