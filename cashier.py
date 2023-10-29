@@ -10,7 +10,7 @@ class Transaction:
                   containing 'quantity' and 'price' of the item in list format.
 
     Methods:
-    - add_item(name, quantity, price): Add a new item to the transaction.
+    - add_item(new_items): Add a new item to the transaction.
     - update_item_name(name, new_name): Update the name of an existing item in the transaction.
     - update_item_qty(name, new_quantity): Update the quantity of an existing item in the transaction.
     - update_item_price(name, new_price): Update the price of an existing item in the transaction.

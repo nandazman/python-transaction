@@ -11,7 +11,7 @@ Andi wants to implement a cashier system in his supermarket so that his customer
 - User can add a new item
 ```python
 # user can add a new item by implementing add_item method
-add_item(name, quantity, price)
+add_item(new_items)
 ```
 - update_item()
 ```python
